@@ -38,7 +38,6 @@ body {
 
 .info-link {
     color: white;
-    cursor: pointer;
     display: flex;
     flex-direction: row;
     align-content: center;
@@ -46,6 +45,7 @@ body {
     justify-content: flex-start;
     align-items: center;
     gap: 20px;
+    cursor: pointer;
 }
 
 .info-link-text {
@@ -55,17 +55,7 @@ body {
     margin-top: 7px;
 }
 
-.playbar-options{
-    position: absolute;
-    display: flex;
-    flex-direction: column-reverse;
-    height: 1080px;
-    width: 100%;
-    align-items: center;
-    flex-wrap: wrap;
-}
-
-.playbar-block {
+.playbar-section {
     background-color: #C4C4C4;
     width: 100%;
     align-items: center;
@@ -74,4 +64,8 @@ body {
     justify-content: center;
     height: 58px;
     opacity: 0.8;
+}
+
+.playbar-options {
+    cursor: pointer;
 }
