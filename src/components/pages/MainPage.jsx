@@ -1,6 +1,8 @@
 import * as React from 'react'
 import LandingPage from './LandingPage';
 import HomePage from './HomePage';
+import HomeTopicsPage from './HomeTopicsPage';
+import '../../assets/css/common.css'
 
 // TODO
 // Implement routing in Main Component
@@ -10,7 +12,8 @@ export default function Main () {
     return (
         <> 
             {/* <LandingPage />  */}
-            <HomePage />
+            {/* <HomePage /> */}
+            <HomeTopicsPage />
         </>
     )
 }

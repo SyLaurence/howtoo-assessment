@@ -4,7 +4,10 @@ import ContentSection from '../ui/home/contentComponent'
 import NavSection from '../reusable/navComponent'
 import "../../assets/css/home.css";
 
-
+/**
+ * 
+ * Component for Home Page
+ */
 export default function HomePage() {
   return (
     <main className='container'>

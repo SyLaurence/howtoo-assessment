@@ -26,6 +26,7 @@ body {
     font-family: Nunito;
     font-size: 16px;
 }
+
 .info-section > img {
     width: 364px;
     height: 88px;
@@ -38,40 +39,4 @@ body {
 
 .content-section > img {
     height: 100%;
-}
-
-.nav-section {
-    height: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-content: center;
-    flex-wrap: wrap;
-    font-family: Montserrat;
-    font-weight: bold;
-    color: white;
-    background-image: linear-gradient(white, black, black);
-}
-
-.nav-section > div {
-    padding: 16px;
-    cursor: pointer;
-}
-
-.nav-section > div > img {
-    margin-right: 16px;
-}
-
-.nav-link-active, .nav-section > div:hover {
-    border-bottom: #55c6d7 6px solid;
-}
-
-@font-face {
-    font-family: Nunito;
-    src: url(../fonts/Nunito.ttf);
-}
-
-@font-face {
-    font-family: Montserrat;
-    src: url(../fonts/Montserrat.ttf);
 }

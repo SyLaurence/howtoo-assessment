@@ -1,5 +1,6 @@
 import React from 'react'
 import HomeIcon from '../../assets/common/home-icon.svg'
+import '../../assets/css/nav.css'
 
 /**
  * 
