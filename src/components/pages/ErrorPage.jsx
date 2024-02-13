@@ -7,9 +7,11 @@ import GoBackButton from '../reusable/goBackComponent'
  */
 export default function ErrorPage() {
   return (
-    <div className='container'>
-        <h1>Page not found</h1>
-        <GoBackButton />
-    </div>
+    <>  
+      <GoBackButton />
+      <div className='flex flex-col gap-2' style={{ backgroundColor: '#08395B', height: '1080px' }}>
+          <h1 style={{ color: 'white', margin: 0, textAlign: 'center' }}>Page not found</h1>
+      </div>
+    </>
   )
 }
