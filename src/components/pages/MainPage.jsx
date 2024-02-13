@@ -2,6 +2,7 @@ import * as React from 'react'
 import LandingPage from './LandingPage';
 import HomePage from './HomePage';
 import HomeTopicsPage from './HomeTopicsPage';
+import AccordionInfoPage from './AccordionInfoPage';
 import '../../assets/css/common.css'
 
 // TODO
@@ -14,6 +15,7 @@ export default function Main () {
             {/* <LandingPage />  */}
             {/* <HomePage /> */}
             <HomeTopicsPage />
+            {/* <AccordionInfoPage /> */}
         </>
     )
 }

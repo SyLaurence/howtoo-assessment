@@ -1,6 +1,7 @@
 import React from 'react'
 import HomeIcon from '../../assets/common/home-icon.svg'
 import '../../assets/css/nav.css'
+import NavItem from './navItemComponent'
 
 /**
  * 
@@ -9,15 +10,15 @@ import '../../assets/css/nav.css'
 export default function navComponent() {
   return (
     <section className='nav-section'>
-        <div className='nav-link-active'>
+        <NavItem style='nav-link-active'>
             <img src={HomeIcon} alt="Logo" />
             Home
-        </div>
-        <div>TOPIC 1</div>
-        <div>TOPIC 2</div>
-        <div>TOPIC 3</div>
-        <div>TOPIC 4</div>
-        <div>TOPIC 5</div>
+        </NavItem>
+        <NavItem> TOPIC 1 </NavItem>
+        <NavItem> TOPIC 2 </NavItem>
+        <NavItem> TOPIC 3 </NavItem>
+        <NavItem> TOPIC 4 </NavItem>
+        <NavItem> TOPIC 5 </NavItem>
     </section>
   )
 }
