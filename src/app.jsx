@@ -5,4 +5,6 @@ import Main from './components/pages/MainPage';
 
 // TODO
 // Add React Router
-ReactDOM.createRoot(document.getElementById('app')).render(<Main />)
+ReactDOM.createRoot(document.getElementById('app')).render(
+    <Main />
+)

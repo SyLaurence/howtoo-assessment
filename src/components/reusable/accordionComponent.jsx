@@ -13,12 +13,21 @@ import '../../assets/css/accordion.css'
  */
 export default function accordionComponent({ title, text }) {
 
+  // Accordion state
   const [ active, setActive ] = useState(false)
 
+  /**
+   * Toggles the Accordion
+   */
   const onClick = () => {
     setActive(!active)
   }  
 
+  /**
+   * Verifies Accordion state and returns css class
+   * 
+   * @returns {string}
+   */
   const isActive = () => (active ? 'active' : '')
 
   return (

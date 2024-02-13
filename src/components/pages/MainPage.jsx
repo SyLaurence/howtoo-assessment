@@ -15,7 +15,7 @@ export default function Main () {
             {/* <LandingPage />  */}
             {/* <HomePage /> */}
             {/* <HomeTopicsPage /> */}
-            <AccordionInfoPage />
+            {/* <AccordionInfoPage /> */}
         </>
     )
 }
