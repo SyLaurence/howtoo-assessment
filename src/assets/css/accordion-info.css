@@ -1,0 +1,49 @@
+.container {
+    background-image: url("../accordion-info/bg.svg");
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 1080px;
+}
+
+.accordion-content {
+    width: 100%;
+    padding: 60px;
+}
+
+.accordion-content > h1 {
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: bold;
+    width: 603px;
+    text-align: center;
+}
+
+.accordion-sidebar {
+    color: white;
+    background-image: linear-gradient(to left, rgba(0,0,0,0), black, black, black, black);
+    padding: 60px;
+    width: 25%;
+}
+
+.accordion-sidebar > .title {
+    font-size: 45px;
+    font-family: Montserrat;
+    margin-top: 0;
+}
+
+.accordion-sidebar > .subtext {
+    font-size: 18px;
+    font-family: Nunito;
+}
+
+.accordion-sidebar > .quote {
+    font-size: 18px;
+    font-family: Montserrat;
+    border-left: #55C6D7 solid 6px;
+    padding-left: 16px;
+}
+
+.accordion-content > * {
+    margin: 20px 0px;
+}

@@ -1,0 +1,24 @@
+.btn {
+    border: none;
+    font-family: Montserrat;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.prev {
+    width: 70px;
+    height: 70px;
+    background-color: #E0E0E0;
+}
+
+.next {
+    width: 85px;
+    height: 85px;
+    background-color: #55C6D7;
+    box-shadow: -3px 3px 12px 0px rgba(0,0,0,0.6);
+}
+
+.btn-section {
+    display: flex;
+    align-items: flex-end;
+}

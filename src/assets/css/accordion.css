@@ -1,0 +1,32 @@
+
+.accordion-title {
+    width: 555px;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 24px;
+    background-color: #55C6D7;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.accordion-body {
+    width: 555px;
+    font-family: Nunito;
+    font-size: 18px;
+    background-color: white;
+    transition: all .3s ease-in-out;
+    overflow: hidden;
+    height: 0;
+    padding: 0 24px;
+}
+
+.active {
+    box-shadow: inset 0px 10px 8px 0px rgba(0,0,0,0.2);
+    height: 148px;
+    padding: 24px;
+}
