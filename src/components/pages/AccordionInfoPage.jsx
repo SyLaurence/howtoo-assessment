@@ -3,6 +3,7 @@ import '../../assets/css/accordion-info.css'
 import AccordionSidebar from '../ui/accordion-info/accordionSidebarComponent'
 import AccordionContent from '../ui/accordion-info/accordionContentComponent'
 import NavButtonGroup from '../reusable/navButtonGroupComponent'
+import GoBackButton from '../reusable/goBackComponent'
 
 /**
  * 
@@ -10,11 +11,14 @@ import NavButtonGroup from '../reusable/navButtonGroupComponent'
  */
 export default function AccordionInfoPage() {
   return (
-    <main className='container'>
-        <AccordionSidebar />
-        <AccordionContent />
-        <NavButtonGroup />
-    </main>
+    <>
+      <GoBackButton />
+      <main className='accordion-container'>
+          <AccordionSidebar />
+          <AccordionContent />
+          <NavButtonGroup />
+      </main>
+    </>
   )
 }
 

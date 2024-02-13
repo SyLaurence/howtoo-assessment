@@ -10,8 +10,9 @@ export default function accordionContentComponent() {
     <section className='accordion-content'>
         <h1>Montserrat</h1>
         { [ ...Array(7).keys() ].map(
-          () => {
-            return <Accordion 
+          (element) => {
+            return <Accordion
+                key={ element }
                 title='LOREM IPSUM'
                 text='Proin sed massa laoreet, viverra dolor vitae, sodales ipsum. Sed quis massa pulvinar justo interdum tempor. Maecenas lobortis tristique massa, sit amet malesuada elit dignissim ut. '
               />

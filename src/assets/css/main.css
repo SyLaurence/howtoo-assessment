@@ -1,0 +1,32 @@
+.main {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 1080px;
+    gap: 100px;
+    background-color: #011a39
+}
+
+.main > a > img {
+    width: 300px;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+
+.main > a > img:hover {
+    width: 400px;
+}
+
+.main > a > h1 {
+    font-family: Montserrat;
+    font-size: 32px;
+    text-align: center;
+    color: white;
+}
+
+.main > a {
+    text-decoration: none;
+}

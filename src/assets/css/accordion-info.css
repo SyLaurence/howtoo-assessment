@@ -1,4 +1,4 @@
-.container {
+.accordion-container {
     background-image: url("../accordion-info/bg.svg");
     display: flex;
     flex-direction: row;

@@ -3,6 +3,7 @@ import InfoSection from '../ui/home/infoComponent'
 import ContentSection from '../ui/home/contentComponent'
 import NavSection from '../reusable/navComponent'
 import "../../assets/css/home.css";
+import GoBackButton from '../reusable/goBackComponent'
 
 /**
  * 
@@ -10,12 +11,15 @@ import "../../assets/css/home.css";
  */
 export default function HomePage() {
   return (
-    <main className='container'>
-        <section className='page-content'>
-            <InfoSection />
-            <ContentSection />
-        </section>
-        <NavSection />
-    </main>
+    <>
+      <GoBackButton />
+      <main className='home-container'>
+          <section className='page-content'>
+              <InfoSection />
+              <ContentSection />
+          </section>
+          <NavSection />
+      </main>
+    </>
   )
 }
